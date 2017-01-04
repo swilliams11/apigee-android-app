@@ -37,7 +37,7 @@ git submodule update
 
 3. Follow the [README](https://github.com/swilliams11/userAuth) for the userAuth repository to deploy the Node.js application to OpenShift.
 
-4. Deploy the android-oauth proxy, product, app and developer by following the [README]() in the setup directory.
+4. Deploy the android-oauth proxy, product, app and developer by following the [README](https://github.com/swilliams11/apigee-android-app/tree/master/edge/setup) in the `edge/setup` directory.
 
 
 ### Authorize Request - Implicit Grant
@@ -47,3 +47,7 @@ The following is a sample implicit grant request.
 ```
 curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' 'https://{org}-{env}.apigee.net/oauth/implicit?response_type=token&client_id=ABC123&redirect_uri=https://login-{openshiftaccount}.rhcloud.com/callback/auth2'
 ```
+
+## TODOS
+1. Add sample android application.
+2. Add OAuth 2.0 Implicit grant web sequence diagram to replace the Sequence Diagram text above.
