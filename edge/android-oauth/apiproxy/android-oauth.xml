@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="android-oauth">
+    <Basepaths>/android-oauth</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1481921276232</CreatedAt>
+    <CreatedBy></CreatedBy>
+    <Description></Description>
+    <DisplayName>android-oauth</DisplayName>
+    <LastModifiedAt>1482187862889</LastModifiedAt>
+    <LastModifiedBy></LastModifiedBy>
+    <Policies>
+        <Policy>OAuth-Implicit-Generate-Response</Policy>
+        <Policy>OAuth-Implicit-No-Response</Policy>
+        <Policy>Redirect-To-Login</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+    <validate>false</validate>
+</APIProxy>

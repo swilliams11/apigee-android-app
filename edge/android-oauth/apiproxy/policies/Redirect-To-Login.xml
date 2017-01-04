@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault async="false" continueOnError="false" enabled="true" name="Redirect-To-Login">
+    <DisplayName>Redirect-To-Login</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers>
+                <Header name="Location">CALLBACKTOCHANGE</Header>
+            </Headers>
+            <Payload contentType="text/plain"/>
+            <StatusCode>302</StatusCode>
+            <ReasonPhrase>Found</ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

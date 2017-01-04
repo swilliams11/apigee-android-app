@@ -1,0 +1,14 @@
+{
+  "apiResources" : [ "/**" ],
+  "approvalType" : "auto",
+  "attributes" : [ ],
+  "description" : "product for the android application",
+  "displayName" : "android-login-product",
+  "environments" : [ "test", "prod" ],
+  "name" : "android-login-product",
+  "proxies" : [ PROXY ],
+  "quota" : "10",
+  "quotaInterval" : "1",
+  "quotaTimeUnit" : "minute",
+  "scopes" : [ "READ" ]
+}
